@@ -9,3 +9,14 @@
   }
 }
 
+@keyframes visagisation {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: -3000px;
+    top: -2000px;
+  }
+}
+

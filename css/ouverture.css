@@ -1,0 +1,40 @@
+/* CROIX CENTRE */
+.croix {
+  position: fixed;
+  display: block;
+  background: #000;
+}
+
+.barreHorizon {
+  height: 1px;
+  width: 100%;
+  top: 49.9%;
+  z-index: 101;
+}
+
+.barreVertica {
+  height: 100%;
+  width: 1px;
+  left: 49.9%;
+  z-index: 100;
+}
+
+.viseur {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  left: calc(50% - 1100px);
+  top: calc(50% - 1100px);
+  border: 800px solid rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+  border-radius: 100%;
+  z-index: 110;
+}
+
+#landscape {
+  position: fixed;
+  z-index: 80;
+  animation-name: visagisation;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
